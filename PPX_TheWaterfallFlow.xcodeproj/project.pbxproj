@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57370E5F1D6D4A3D00B65C86 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 57370E591D6D4A3D00B65C86 /* CollectionViewCell.m */; };
+		57370E601D6D4A3D00B65C86 /* CollectionHeaderOrFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57370E5C1D6D4A3D00B65C86 /* CollectionHeaderOrFooterView.m */; };
+		57370E611D6D4A3D00B65C86 /* WaterfallFlowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57370E5E1D6D4A3D00B65C86 /* WaterfallFlowViewController.m */; };
+		57370E791D6D4B7100B65C86 /* PPXWaterfallFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 57370E781D6D4B7100B65C86 /* PPXWaterfallFlowLayout.m */; };
 		5748C5911D6BF5BF00BDC084 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5748C5901D6BF5BF00BDC084 /* main.m */; };
 		5748C5941D6BF5BF00BDC084 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5748C5931D6BF5BF00BDC084 /* AppDelegate.m */; };
 		5748C5971D6BF5BF00BDC084 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5748C5961D6BF5BF00BDC084 /* ViewController.m */; };
@@ -35,6 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		57370E581D6D4A3D00B65C86 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		57370E591D6D4A3D00B65C86 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		57370E5B1D6D4A3D00B65C86 /* CollectionHeaderOrFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionHeaderOrFooterView.h; sourceTree = "<group>"; };
+		57370E5C1D6D4A3D00B65C86 /* CollectionHeaderOrFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionHeaderOrFooterView.m; sourceTree = "<group>"; };
+		57370E5D1D6D4A3D00B65C86 /* WaterfallFlowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterfallFlowViewController.h; sourceTree = "<group>"; };
+		57370E5E1D6D4A3D00B65C86 /* WaterfallFlowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterfallFlowViewController.m; sourceTree = "<group>"; };
+		57370E771D6D4B7100B65C86 /* PPXWaterfallFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPXWaterfallFlowLayout.h; sourceTree = "<group>"; };
+		57370E781D6D4B7100B65C86 /* PPXWaterfallFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPXWaterfallFlowLayout.m; sourceTree = "<group>"; };
 		5748C58C1D6BF5BF00BDC084 /* PPX_TheWaterfallFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PPX_TheWaterfallFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5748C5901D6BF5BF00BDC084 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5748C5921D6BF5BF00BDC084 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -78,6 +90,76 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		57370E531D6D4A3D00B65C86 /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				57370E541D6D4A3D00B65C86 /* WaterFallFlowVC */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		57370E541D6D4A3D00B65C86 /* WaterFallFlowVC */ = {
+			isa = PBXGroup;
+			children = (
+				57370E551D6D4A3D00B65C86 /* Model */,
+				57370E561D6D4A3D00B65C86 /* View */,
+			);
+			path = WaterFallFlowVC;
+			sourceTree = "<group>";
+		};
+		57370E551D6D4A3D00B65C86 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		57370E561D6D4A3D00B65C86 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				57370E571D6D4A3D00B65C86 /* Cell */,
+				57370E5A1D6D4A3D00B65C86 /* Head */,
+				57370E5D1D6D4A3D00B65C86 /* WaterfallFlowViewController.h */,
+				57370E5E1D6D4A3D00B65C86 /* WaterfallFlowViewController.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		57370E571D6D4A3D00B65C86 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				57370E581D6D4A3D00B65C86 /* CollectionViewCell.h */,
+				57370E591D6D4A3D00B65C86 /* CollectionViewCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		57370E5A1D6D4A3D00B65C86 /* Head */ = {
+			isa = PBXGroup;
+			children = (
+				57370E5B1D6D4A3D00B65C86 /* CollectionHeaderOrFooterView.h */,
+				57370E5C1D6D4A3D00B65C86 /* CollectionHeaderOrFooterView.m */,
+			);
+			path = Head;
+			sourceTree = "<group>";
+		};
+		57370E721D6D4A8100B65C86 /* CustomUI */ = {
+			isa = PBXGroup;
+			children = (
+				57370E761D6D4B7100B65C86 /* PPXWaterfallFlowLayout */,
+			);
+			path = CustomUI;
+			sourceTree = "<group>";
+		};
+		57370E761D6D4B7100B65C86 /* PPXWaterfallFlowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				57370E771D6D4B7100B65C86 /* PPXWaterfallFlowLayout.h */,
+				57370E781D6D4B7100B65C86 /* PPXWaterfallFlowLayout.m */,
+			);
+			path = PPXWaterfallFlowLayout;
+			sourceTree = "<group>";
+		};
 		5748C5831D6BF5BF00BDC084 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +183,8 @@
 		5748C58E1D6BF5BF00BDC084 /* PPX_TheWaterfallFlow */ = {
 			isa = PBXGroup;
 			children = (
+				57370E531D6D4A3D00B65C86 /* Sections */,
+				5748C5C21D6BF77B00BDC084 /* General */,
 				5748C5921D6BF5BF00BDC084 /* AppDelegate.h */,
 				5748C5931D6BF5BF00BDC084 /* AppDelegate.m */,
 				5748C5951D6BF5BF00BDC084 /* ViewController.h */,
@@ -138,6 +222,14 @@
 				5748C5B61D6BF5BF00BDC084 /* Info.plist */,
 			);
 			path = PPX_TheWaterfallFlowUITests;
+			sourceTree = "<group>";
+		};
+		5748C5C21D6BF77B00BDC084 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				57370E721D6D4A8100B65C86 /* CustomUI */,
+			);
+			path = General;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,7 +364,11 @@
 			files = (
 				5748C5971D6BF5BF00BDC084 /* ViewController.m in Sources */,
 				5748C5941D6BF5BF00BDC084 /* AppDelegate.m in Sources */,
+				57370E5F1D6D4A3D00B65C86 /* CollectionViewCell.m in Sources */,
+				57370E601D6D4A3D00B65C86 /* CollectionHeaderOrFooterView.m in Sources */,
 				5748C5911D6BF5BF00BDC084 /* main.m in Sources */,
+				57370E611D6D4A3D00B65C86 /* WaterfallFlowViewController.m in Sources */,
+				57370E791D6D4B7100B65C86 /* PPXWaterfallFlowLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,7 +460,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -403,7 +499,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -416,6 +512,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PPX_TheWaterfallFlow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "pipixia.PPX-TheWaterfallFlow";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -427,6 +524,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PPX_TheWaterfallFlow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "pipixia.PPX-TheWaterfallFlow";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,6 +596,7 @@
 				5748C5BB1D6BF5BF00BDC084 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5748C5BC1D6BF5BF00BDC084 /* Build configuration list for PBXNativeTarget "PPX_TheWaterfallFlowTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +605,7 @@
 				5748C5BE1D6BF5BF00BDC084 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5748C5BF1D6BF5BF00BDC084 /* Build configuration list for PBXNativeTarget "PPX_TheWaterfallFlowUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +614,7 @@
 				5748C5C11D6BF5BF00BDC084 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
